@@ -1,0 +1,171 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-size: 1em;
+    }
+    header {
+        background-color: grey;
+        display: flex;
+        jusitify-content: center;
+        alignitems: center;
+        height: auto;
+    }
+    header li {
+        list-style: none;
+    }
+    nav {
+        visibility:hidden;
+    }
+    header {
+        height: 50px;
+    }
+    .logo {
+        color: rgb(222, 89, 89);
+        text-shadow: 3px 2px 4px black;
+    }
+    .logo-devs {
+        color: rgb(80, 128, 239);
+    }
+    .pic1 {
+        background-image: url(/images/space-view-of-earth-lights.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px
+    }
+    .ptxt {
+        color: white;
+    }
+    .section-light {
+        font-size: .8rem;
+        line-height:1.5;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-light-container {
+        width: 270px;
+        background-color: rgb(224, 223, 223);
+        border-radius: 15px;
+
+        box-shadow: 3px 2px 4px grey;
+    }
+    .section-light h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .section-light p {
+        padding: 15px;
+        text-align: justify;
+        line-height: 1.7;
+
+    }
+    
+    .demo-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .demo-card {
+        width: 300px;
+        position: relative;
+    }
+    .demo-card img {
+        width: 280px;
+        border-radius: 15px;
+        height: 280px;
+        margin-bottom: 15px;
+        box-shadow: 3px 2px 4px grey;
+    }
+    .demo-card p {
+        position: absolute;
+        top: 6px;
+        left: 90px;
+        font-size: 1.3rem;
+        color: wheat;
+        font-weight: bold;
+        text-shadow: 1px 2px 3px grey;
+    }
+    .pic2 {
+        background-image: url(/images/computer-desk_420.jpg);
+        height: 180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:bottom;
+        background-color: rgb(4, 71, 116);
+        text-align: center;
+    }
+
+    .demo-txt h2 {
+        text-align: center;
+        font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    
+
+    .output-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .output-card {
+        width: 280px;
+        box-shadow: 3px 2px 4px grey;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        height: 200px;
+        position: relative;
+    }
+    .output-card img {
+        width: 100px;
+        position: absolute;
+        bottom: 1px;
+        left: 70px;
+    }
+    .output-card:last-child{
+        background-color: #75c3cf
+    }
+
+    .section-dark {
+        background-color: rgb(45, 44, 44);
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-dark > h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .section-dark p {
+        text-align: center;
+        padding: 15px;
+        color: greenyellow;
+    }
+    .quota {
+        border: none;
+        margin: 15px;
+        padding: 7px;
+        border-radius: 7px;
+        box-shadow: 3px 2px 4px grey;
+        background-color: greenyellow;
+        color: blue;
+        align-self: center;
+    }
+
+    footer {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

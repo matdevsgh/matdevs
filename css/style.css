@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-size: 1em;
+    font-family: "lato", sans-serif;
+}
+
+/*This part is for the header*/
+
+.logo {
+        color: rgb(222, 89, 89);
+        text-shadow: 3px 2px 4px black;
+        font-size: 4rem;
+        margin-left: 50px;
+        cursor: pointer;
+}
+.logo-devs {
+        color: rgb(80, 128, 239);
+}
+header{
+    display: flex;
+    position: relative;
+    height: 90px;
+    
+}
+.sidebar {
+    width: 60px;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    transition: ease-in-out;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+
+}
+.sidebar:hover {
+    width: 200px;
+}
+.sidebar:hover > .item > .text {
+    opacity: 1;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.item .icon {
+    width: 40px;
+    height: 35px;
+    flex-shrink: 0;
+    fill: 424242;
+}
+.item .text {
+    opacity: 0;
+    transition: ease-in-out;
+    transition-delay: .2s;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+/*This part is for the images on the first part*/
+.pic1 {
+    background-image: url(/images/space-view-of-earth-lights.jpg);
+    background-attachment: fixed;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ptxt {
+    color: white;
+    font-size: 2rem;
+    width: 700px;
+    line-height: 1.7;
+    float: left;
+}
+
+.section-light {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.section-light-container {
+    width: 95%;
+    box-shadow: 3px 2px 2px 2px rgb(177, 177, 177);
+    padding-top: 30px;
+}
+.section-light h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 50px;
+    text-shadow: 3px 2px 4px grey;
+}
+.section-light p {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.demo-txt h2 {
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 3px 2px 4px grey;
+}
+.demo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    padding: 80px;
+}
+.demo-card img {
+    width: 900px;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 3px 2px 5px grey;
+    margin-bottom: 50px;
+}
+.demo-card {
+    position: relative;
+}
+.demo-card p {
+    font-size: 3rem;
+    color: blanchedalmond;
+    align-items: center;
+    text-shadow: 3px 2px 5px grey;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.pic2 {
+    background-image: url(/images/computer-desk_1920.jpg);
+    height: 700px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+.ptxt {
+    padding: 30px;
+    text-align: center;
+    background-color:rgba(100, 148, 237, 0.765);
+    font-size: 2.7rem;   
+}
+
+.demo-output h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.output-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
+}
+.output-card {
+    width: 95%;
+    height: 600px;
+    background-color: #9f2e7e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:  2px 3px 4px  grey;
+    
+}
+.output-card img {
+    width: 550px;
+}
+
+.maintain {
+    background-color: #75c3cf;
+}
+.output-card h3 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.output-card p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.section-dark {
+    height: 500px;
+    background-color:cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(/images/dictionary-932327_1920.jpg);
+    padding-bottom: 40px;
+    position: relative;
+
+}
+.section-dark h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: whitesmoke;
+}
+.section-dark p {
+    font-size: 1.8rem;
+    color: aliceblue;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.quota {
+    padding: 15px;
+    width: 200px;
+    border: none;
+    font-size: 1.4rem;
+    background-color: greenyellow;
+    color: rgb(20, 106, 236);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px
+}
