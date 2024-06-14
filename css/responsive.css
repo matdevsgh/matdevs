@@ -9,8 +9,8 @@
     header {
         background-color: grey;
         display: flex;
-        jusitify-content: center;
-        alignitems: center;
+        justify-content: center;
+        align-items: center;
         height: auto;
     }
     header li {
