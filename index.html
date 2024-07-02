@@ -3,167 +3,367 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Matt Devs</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <header>
-        <h1 class="logo">Mat<span class="logo-devs">Devs</span></h1>
-        <nav class="sidebar">
-            <ul>
-                <li class="item">
-                    <img class="icon" src="/icons/house.svg">
-                    <div class="text"><a href="#">Home</a> </div>
-                </li>
-                <li class="item">
-                    <img class="icon" src="/icons/grid-fill.svg">
-                    <div class="text"><a href="#">Portfolio</a> </div>
-                </li>
-                <li class="item">
-                    <img class="icon" src="/icons/journal-text.svg">
-                    <div class="text"><a href="#">About Us</a> </div>
-                </li>
-                <li class="item">
-                    <img class="icon" src="/icons/mailbox2.svg">
-                    <div class="text"><a href="#">Contact</a> </div>
-                </li>
-
-                <!--
-                        <li class="item"></li>
-                        <li class="item"></li>
-                        <li class="item"></li>
-                        <li><a href="#">Home</a> </li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About Us</a> </li>
-                        <li class="sns"><a href="#">Shops & Services</a> </li>
-                        -->
-            </ul>
-        </nav>
-    </header>
-
-    <div class="pic1">
-        <div class="ptxt">
-            <h2 class="border">The Perfect Clean Design To Startup Your Business Or Give Your
-                Business That Boost
-            </h2>
+    <!-- Navigation bar with logo-->
+    <nav class="navbar navbar-expand-lg text-light nav">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">MatDevs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <section class="section-light">
-        <div class="section-light-container">
-            <h2>Why a website?</h2>
-            <p>The world has been a digital one since the introduction of the internet.
-                everything and everyone is and can be found online, but then how will anyone find you or know anything
-                about you if you are not online, how do you market your services or goods if no one knows you enen exist
-                or can not find you anywhere on this digital globe. So the "why?", you need a digital footprint.</p>
-        </div>
-    </section>
+    </nav>
 
-    <section class="demo-txt">
-        <h2>WHAT WE DO</h2>
-
-        <div class="demo-container">
-            <div class="demo-card">
-                <p>Build Websites</p>
-                <img src="/images/website-build.png" alt="website construction image">
+    <!-- Social media handels -->
+    <section class="container-fluid main-hero">
+        <div class="row g-5 justify-content-center hero-container">
+            <div class="col-md-4 col-lg-4 social">
+                <ul class="social">
+                    <li><i class="bi-facebook" style="color: cyan"></i></li>
+                    <li><i class="bi-tiktok" style="color: cyan"></i></li>
+                    <li><i class="bi-instagram" style="color: cyan"></i></li>
+                </ul>
             </div>
-            <div class="demo-card">
-                <p>Maintain Websites</p>
-                <img src="/images/website-maintain.png" alt="website maintainace image">
-                <div class="mi">
-
-                </div>
+            <div class="col-md-4 col-lg-4 person">
+                <div class="dp"><img src="" alt="" class="img-fluid"></div>
+                <div class="name">MatDevs Web Agency</div>
+                <div class="position">Full Stack Development</div>
+                <div class="contact">matdevsgh@gmail.com</div>
             </div>
-            <div class="demo-card">
-                <p>Build Websystems</p>
-                <img src="/images/computer-code_1920.png" alt="golbe image">
-                <div class="mi">
-
-                </div>
+            <div class="col-md-4 col-lg-4 main-message">
+                <div class="message-head display-5">Hello welcome to Mat Devs</div>
+                <div class="message-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci alias nihil
+                    harum ea ratione totam?</div>
             </div>
-            <div class="demo-card">
-                <p>Redesign Websites</p>
-                <img src="images/computer_1920.jpg" alt="redesign image">
-                <div class="mi">
-
-                </div>
-            </div>
-            <!--
-                    <div class="demo-card">
-                        <p>Build Websystems</p>
-                        <img src="images/brain-7482511_1920.jpg" alt="websystem image">
-                        <div class="mi">
-
-                        </div>
-                    </div>
-                    <div class="demo-card">
-                        <img src="/images/computer-code_1920.png" alt="computer code image">
-                        <p>Add New Functionality</p>
-                        <div class="mi">
-
-                        </div>
-                    </div>
-                </div>
-                -->
-    </section>
-
-    <div class="pic2">
-        <div class="ptxt">
-            <span class="border trans">An Array Of Services For All Your Needs</span>
-        </div>
-    </div>
-
-    <section class="demo-output">
-        <h2>What We Give You</h2>
-        <div class="output-container">
-            <!--
-                    <div class="output-card">
-                        <p>Beautiful Website</p>
-                        <img src="/images/computer-desk_420.jpg" alt="website template">
-                    </div>
-                    
-                    <div class="output-card">
-                        <p>A Web Presence that is Everywhere</p>
-                        <img src="/images/brain-7482511_1920.jpg" alt="S E O">
-                    </div>
-                    -->
-            <div class="output-card">
-                <div class="output-txt">
-                    <h3>Fit For All</h3>
-                    <p>We build websites that is responsive to all screens </br>
-                        so that you can connect with all your people.</p>
-                </div>
-                <img src="https://github.com/matdevsgh/matdevs/blob/main/images/website-responsive-plain_1920.jpg" alt="responsive site image">
-            </div>
-            <div class="output-card maintain">
-                <div class="output-txt">
-                    <h3>Maintainable Site</h3>
-                    <p>We maintain your site so that you can update it at all times</br>
-                        while updating your clients on new developments</p>
-                </div>
-                <img src="/images/website-update-420.jpg" alt="maintainace">
+            <div class="col-md-4 col-lg-4 rec">
+                <ul>
+                    <li><span class="dig">S</span>chool Sites</li>
+                    <li><span class="dig">S</span>oftwares</li>
+                    <li><span class="dig">B</span>usiness Sites</li>
+                </ul>
             </div>
         </div>
     </section>
-    <section class="section section-dark">
-        <h2>How to get a website?</h2>
-        <p>Now, if you are convinced why you need a website, the how is pretty easy. We at Matt Devs are your how.
-            At Mat Devs pride ourselves with not just functional websites but eyecatching mind bogling and beautifully
-            created work of art. We are not just creating your digital print on the web but we aim to make you stand out
-            with aesthetically created websites, functional, findable and most importantly to give your brand an
-            identity.</p>
-        <button class="quota">Get Quota</button>
+
+    <!-- What we serve -->
+    <section class="container-fluid services">
+        <div class="row g-4 justify-content-center services">
+            <div class="col-md-6 col-lg-3">
+                <div class="m-3 service-card stra">
+                    <img src="/resources/icons/strategy.svg" alt="image of service" class="img-fluid service-image">
+                    <div class="sm-d-mt-1 p-5 service-text">
+                        <div class="display-5 text-center">Strategy</div>
+                        <p class="">
+                            We assist you to confidently navigate the whole spectrum of the internet including web
+                            technology
+                            and how to strategize.
+                        </p>
+                    </div>
+                    <div class="overlay">
+                        <p class="p-5">
+                            Let our team of designers help you choose the right design that resonates the purpose of
+                            your business.
+                            With the help of our designers you are guaranteed a beauty and uniqueness that sets you
+                            appart from others.
+                            We available to assist you in all your design needs for your:
+                            
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="m-3 service-card des">
+                    <img src="/resources/icons/monitordrawing.svg" alt="image of service"
+                        class="img-fluid service-image">
+                    <div class="service-text p-5">
+                        <div class="display-5 text-center">Design</div>
+                        <p>
+                            We create beautiful, attractive and most of all a verfy welcoming interface for your website
+                            and software
+                            which your clients will appreciate.
+                        </p>
+                    </div>
+                    <div class="overlay">
+                        <p class="p-5">
+                            To get your website or application up an running our team of experts will be dedicated to
+                            making that
+                            happend within the shortest possible time. Through out the build process you will be
+                            periodically and
+                            continously updated on the progress as they are being built. Our programmers will be at your
+                            disposable
+                            through out the build process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="m-3 service-card web">
+                    <img src="/resources/icons/Browserpoint.svg" alt="image of service" class="img-fluid service-image">
+                    <div class="service-text p-5">
+                        <div class="display-5 text-center">Website</div>
+                        <p>
+                            We build enterprise-level websites that function perfectly and are mobile friendly,
+                            and look great on all devices.
+                        </p>
+                    </div>
+                    <div class="overlay">
+                        <p class="p-5">
+                            Having a beautiful website is great and all but to it is also important to periodically
+                            update the information and add changes
+                            as your business moves grows. Current information can also be made available to your cilents
+                            and customers at all times and
+                            we make that eaiser for you. All you have to do is to cotact our team and leave all the work
+                            to us.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="m-3 service-card wap">
+                    <img src="/resources/icons/browsersettings.svg" alt="image of service"
+                        class="img-fluid service-image">
+                    <div class="service-text p-5">
+                        <div class="display-5 text-center">Applications</div>
+                        <p>
+                            We create scalable and flexible custom web applications, tailored towards your specific
+                            needs
+                            and your business.
+                        </p>
+                    </div>
+                    <div class="overlay">
+                        <p class="p-5">
+                            Having a beautiful website is great and all but to it is also important to periodically
+                            update the information and add changes
+                            as your business moves grows. Current information can also be made available to your cilents
+                            and customers at all times and
+                            we make that eaiser for you. All you have to do is to cotact our team and leave all the work
+                            to us.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <div class="socials">
-            © MatDevs 2024
+    <!-- What we do -->
+    <section class="container-fluid wedo">
+        <div class="display-4 text-center mb-5 headings">What we do</div>
+        <div class="do-card">
+            <div class="do-img">
+                <img src="/resources/images/reshot-illustration-website-design-ZK3N2W7CDX.png" alt="plan"
+                    class="img-fluid d-none d-md-flex">
+            </div>
+            <div class="do-txt">
+                <h3 class="p-2 text-center">Plan</h3>
+                <p class="px-3 my-5">
+                    Every successful project starts with a well thought comprehensive understanding of what
+                    our your needs are. We conduct extensive resarch on how your business operates,
+                    interact with stakeholders, analyze the market and review potential strategies before
+                    any recommendations are made based on the specific needs.
+                </p>
+            </div>
         </div>
-    </footer>
 
+        <div class="do-card">
+            <div class="do-img">
+                <img src="/resources/images/reshot-illustration-website-design-U3PZXDSEVY.png" alt="plan"
+                    class="img-fluid d-none d-md-flex">
+            </div>
+            <div class="do-txt">
+                <h3 class="p-2 text-center">Design</h3>
+                <p class="px-3">
+                    Our design team are great at creating the most beautiful and visual stimulating views. Bit
+                    together with you will we create wireframes and mockups that brng your brings your plan to
+                    life with
+                    with a beautful display that resonates your brand but also takes into consideration your
+                    clients
+                    to make it easily assessible to them.
+                </p>
+            </div>
+        </div>
+
+        <div class="do-card">
+            <div class="do-img">
+                <img src="/resources/images/reshot-illustration-building-a-website-C983EH7WPG.png" alt="plan"
+                    class="img-fluid d-none d-md-flex">
+            </div>
+            <div class="do-txt">
+                <h3 class="p-2 text-center">Build</h3>
+                        <p class="px-3">
+                            Our experienced and hardworking development team transforms those beautiful designs into a
+                            not only
+                            beautiful but a perfectly functional and engaging website/application. We create the the
+                            most seamless
+                            web sites that are responsive to any device and assessible to all your clients.
+                        </p>
+            </div>
+        </div>
+
+        <div class="do-card">
+            <div class="do-img">
+                <img src="/resources/images/reshot-illustration-start-up-website-9TRDPC5XLV.png" alt="plan"
+                    class="img-fluid d-none d-md-flex">
+            </div>
+            <div class="do-txt">
+                <h3 class="p-2 text-center">Launch</h3>
+                        <p class="px-3">
+                            The the creation of the website, it is time to go-live. With checklists, timelines and
+                            expert recommendations,
+                            we will guide you through a successful launch but not before we have conducted our
+                            pre-flight process to marke
+                            sure all issues that may arise have been taken care of to ensure a successful launch.
+                        </p>
+            </div>
+        </div>
+
+        <div class="do-card">
+            <div class="do-img">
+                <img src="/resources/images/reshot-illustration-404-error-illustration-3D5KRFBEW4.png" alt="plan"
+                    class="img-fluid d-none d-md-flex">
+            </div>
+            <div class="do-txt">
+                <h3 class="p-2 text-center">Support</h3>
+                        <p class="px-3">
+                            With a successful lauch however does not end our beautiful relationship with you. We will
+                            continue to offer ongoing
+                            maintaince updates, support, security reviews, infrastructure updates throught the life of
+                            your site. We will
+                            continiously work with you to add new features and functionality to your project as it grows
+                            and evoles to continue
+                            to meet it's current needs.
+                        </p>
+            </div>
+        </div>
+
+        <!--
+        <div class="row justify-content-evenly">
+            <div class="col-sm-6 col-md-3 col-lg-4 box">
+                <div class="wedo-card">
+                    <!-- <div class="display-6 text-center wedo-head">Plan</div> -->
+        <!--
+                    <img src="/resources/images/reshot-illustration-website-design-ZK3N2W7CDX.png" alt="an image"
+                        class="wedo-img img-fluid mb-3">
+
+                    <div class="overlay1">
+                        <h3 class="p-2 text-center">Plan</h3>
+                        <p class="px-3 my-5">
+                            Every successful project starts with a well thought comprehensive understanding of what
+                            our your needs are. We conduct extensive resarch on how your business operates,
+                            interact with stakeholders, analyze the market and review potential strategies before
+                            any recommendations are made based on the specific needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-4 box">
+                <div class="wedo-card">
+                    <img src="/resources/images/design_500.jpg" alt="an image" class="wedo-img img-fluid mb-3">
+                    <div class="overlay1">
+                        <h3 class="p-2 text-center">Design</h3>
+                        <p class="px-3">
+                            Our design team are great at creating the most beautiful and visual stimulating views. Bit
+                            together with you will we create wireframes and mockups that brng your brings your plan to
+                            life with
+                            with a beautful display that resonates your brand but also takes into consideration your
+                            clients
+                            to make it easily assessible to them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-4 box">
+                <div class="wedo-card">
+                    <img src="/resources/images/build_500.jpg" alt="an image" class="wedo-img img-fluid mb-3">
+                    <div class="overlay1">
+                        <h3 class="p-2 text-center">Build</h3>
+                        <p class="px-3">
+                            Our experienced and hardworking development team transforms those beautiful designs into a
+                            not only
+                            beautiful but a perfectly functional and engaging website/application. We create the the
+                            most seamless
+                            web sites that are responsive to any device and assessible to all your clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!--
+        <div class="row justify-content-evenly">
+            <div class="col-sm-6 col-md-3 col-lg-4 box">
+                <div class="wedo-card">
+                    <img src="/resources/images/deploy_500.jpg" alt="an image" class="wedo-img img-fluid mb-3">
+                    <div class="overlay1">
+                        <h3 class="p-2 text-center">Launch</h3>
+                        <p class="px-3">
+                            The the creation of the website, it is time to go-live. With checklists, timelines and
+                            expert recommendations,
+                            we will guide you through a successful launch but not before we have conducted our
+                            pre-flight process to marke
+                            sure all issues that may arise have been taken care of to ensure a successful launch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-4 box">
+                <div class="wedo-card">
+                    <img src="/resources/images/support_500.png" alt="an image" class="wedo-img img-fluid mb-3">
+                    <div class="overlay1">
+                        <h3 class="p-2 text-center">Support</h3>
+                        <p class="px-3">
+                            With a successful lauch however does not end our beautiful relationship with you. We will
+                            continue to offer ongoing
+                            maintaince updates, support, security reviews, infrastructure updates throught the life of
+                            your site. We will
+                            continiously work with you to add new features and functionality to your project as it grows
+                            and evoles to continue
+                            to meet it's current needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </section>
+
+
+    <script src="/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
