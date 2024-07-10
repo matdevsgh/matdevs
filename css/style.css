@@ -90,7 +90,7 @@ Theme color alt write 2: EDE8F5;
     /*animation: drop 7s linear infinite;*/
 }
 .services {
-    background-color: #8697C4;
+    background-color: whitesmoke;
 }
 
 .slider {
@@ -205,7 +205,7 @@ Theme color alt write 2: EDE8F5;
     transition: .5s ease;
 }
 .do-txt {
-    color: #7091E6;
+    color: whitesmoke;
 }
 .wedoimg {
     width: 30rem;
