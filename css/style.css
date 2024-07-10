@@ -46,7 +46,7 @@ Theme color alt write 2: EDE8F5;
 }
 .social,
 .rec {
-    background-color:rgb(54, 63, 64);
+    background-color: rgb(54, 63, 64);
     color: white;
     height:fit-content;
     padding: 10px;
@@ -68,7 +68,7 @@ Theme color alt write 2: EDE8F5;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 20rem;
-    background-color: #8697C4;
+    background-color: rgb(54, 63, 64);
     color: #ADBBDA;
     width: 10rem
 }
@@ -161,7 +161,7 @@ Theme color alt write 2: EDE8F5;
     left: 0;
     right: 0;
     background-color: #8697C4;
-    color: #7091E6;
+    color: #3D52A0;
     overflow: hidden;
     width: 100%;
     height: 0;
