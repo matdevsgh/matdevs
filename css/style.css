@@ -69,7 +69,7 @@ Theme color alt write 2: EDE8F5;
     border-bottom-right-radius: 50px;
     width: 20rem;
     background-color: rgb(54, 63, 64);
-    color: #ADBBDA;
+    color: white;
     width: 10rem
 }
 .dig {
@@ -119,7 +119,7 @@ Theme color alt write 2: EDE8F5;
     border: 1px solid grey;
     box-shadow: 3px 3px 1px rgb(151, 224, 224);
     background-color: #3D52A0;
-    color: #7091E6;
+    color: cyan;
 
     /*
     background: rgba(135, 0, 254, 0.27);
