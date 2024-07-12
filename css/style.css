@@ -201,7 +201,7 @@ Theme color alt write 2: EDE8F5;
 }
 .do-card:hover {
     background: rgb(5,27,58);
-    background: linear-gradient(0deg, rgba(5,27,58,1) 70%, rgba(45,223,253,1) 100%);
+    background: linear-gradient(53deg, rgba(5,27,58,1) 25%, rgba(45,223,253,1) 30%, rgba(0,33,61,1) 35%);
     transition: .5s ease;
 }
 .do-txt {
