@@ -284,6 +284,13 @@ Theme color alt write 2: EDE8F5;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.wp {
+    width: 100px;
+    position: fixed;
+    right: 2px;
+    bottom: 5px;
+    cursor: pointer;
+}
 
 /* Footer */
 footer {
