@@ -382,6 +382,7 @@ footer {
     display: flex;
     justify-content: space-around;
     color: white;
+    margin-top: 10px;
     background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
