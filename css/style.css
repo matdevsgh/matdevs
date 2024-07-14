@@ -23,43 +23,68 @@ Theme color alt write 2: EDE8F5;
 .hero-container {
     display: flex;
 }
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 3px 3px whitesmoke;
+}
+
 .main-hero {
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
-    background-color: #3D52A0;
+    background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
     display: flex;
     justify-content: space-evenly;
     padding-left: 30px;
     padding-right: 30px;
     padding: 30px;
 }
+
 .main-message {
     width: 500px;
 }
+
 .message-head {
     color: white;
+    margin-bottom: 10px
 }
+
 .message-body {
-    color: cyan;
+    color: white;
 }
+
+.social {
+    position: fixed;
+    bottom: 80px;
+    left: 7px;
+    border: 1px solid cyan;
+    max-width: 40px;
+}
+
 .social,
 .rec {
     background-color: rgb(54, 63, 64);
     color: white;
-    height:fit-content;
+    height: fit-content;
     padding: 10px;
     position: absolute;
     bottom: 10px;
     left: 2px;
 }
+
 .social li,
 .rec li {
     list-style: none;
     cursor: pointer;
     padding-bottom: .7rem;
 }
+
 .person,
 .rec {
     border: 2px solid cyan;
@@ -67,18 +92,21 @@ Theme color alt write 2: EDE8F5;
     padding: 10px 5px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    width: 20rem;
+    width: 15rem;
     background-color: rgb(54, 63, 64);
     color: white;
     width: 10rem
 }
+
 .dig {
     color: #7091E6;
     font-size: 1.3rem
 }
+
 .rec {
     position: static;
 }
+
 .hero-info {
     position: absolute;
     width: 60%;
@@ -89,6 +117,7 @@ Theme color alt write 2: EDE8F5;
     z-index: 1;
     /*animation: drop 7s linear infinite;*/
 }
+
 .services {
     background-color: whitesmoke;
 }
@@ -118,14 +147,24 @@ Theme color alt write 2: EDE8F5;
     border-radius: 7px;
     border: 1px solid grey;
     box-shadow: 3px 3px 1px rgb(151, 224, 224);
-    background-color: #3D52A0;
-    color: cyan;
+    background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
+    color: white;
 
     /*
     background: rgba(135, 0, 254, 0.27);
     background: linear-gradient(180deg, rgba(134,0,254,1) 16%, rgba(94,11,255,1) 54%);
     */
 }
+.rdmr {
+    padding: 7px;
+    background-color: whitesmoke;
+    color: #3D52A0;
+    border-radius: 5px;
+    bottom: 4px;
+
+}
+
 .service-image {
     width: 10rem;
     position: absolute;
@@ -142,6 +181,7 @@ Theme color alt write 2: EDE8F5;
     width: 100%;
     height: auto;
 }
+
 /*
 .stra {
     background-color: rgb(188, 230, 106);
@@ -174,11 +214,14 @@ Theme color alt write 2: EDE8F5;
 
 /* Style for what we do section */
 .wedo {
-    background-color: #3D52A0;
+    background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
 }
+
 .box {
     margin-bottom: 7px;
 }
+
 .wedo-container {
     display: flex;
     justify-content: space-evenly;
@@ -188,6 +231,7 @@ Theme color alt write 2: EDE8F5;
     height: 40rem;
     overflow: hidden;
 }
+
 .do-card {
     display: flex;
     justify-content: center;
@@ -199,14 +243,17 @@ Theme color alt write 2: EDE8F5;
     padding-bottom: 3rem;
     transition: background-color .5s ease;
 }
-.do-card:hover {
-    background: rgb(5,27,58);
-    background: linear-gradient(53deg, rgba(5,27,58,1) 25%, rgba(45,223,253,1) 30%, rgba(0,33,61,1) 35%);
+
+/*.do-card:hover {
+    background: rgb(5, 27, 58);
+    background: linear-gradient(0deg, rgba(5, 27, 58, 1) 70%, rgba(45, 223, 253, 1) 100%);
     transition: .5s ease;
-}
+}*/
+
 .do-txt {
     color: whitesmoke;
 }
+
 .wedoimg {
     width: 30rem;
     height: 30rem;
@@ -229,17 +276,19 @@ Theme color alt write 2: EDE8F5;
     background: rgba(135, 0, 254, 0.27);
     background: linear-gradient(180deg, rgba(134,0,254,1) 16%, rgba(94,11,255,1) 54%);
     */
-    background: rgb(18,247,214);
-    background: linear-gradient(180deg, rgba(18,247,214,1) 0%, rgba(38,45,53,1) 26%, rgba(26,29,34,1) 89%);
+    background: rgb(18, 247, 214);
+    background: linear-gradient(180deg, rgba(18, 247, 214, 1) 0%, rgba(38, 45, 53, 1) 26%, rgba(26, 29, 34, 1) 89%);
     color: white;
     overflow: hidden;
     transition: .5s ease;
     width: 100%;
 }
+
 .headings {
     color: #7091E6;
     margin-bottom: 5rem;
 }
+
 .overlay1 {
     background-color: rgb(48, 47, 47);
     color: white;
@@ -250,6 +299,7 @@ Theme color alt write 2: EDE8F5;
     height: 100%;
     position: relative;
 }
+
 .wedo-head {
     position: absolute;
     top: 0;
@@ -257,6 +307,7 @@ Theme color alt write 2: EDE8F5;
     z-index: 1;
     font-weight: 400;
 }
+
 .wedo-card {
     position: relative;
     width: 100%;
@@ -277,6 +328,26 @@ Theme color alt write 2: EDE8F5;
     width: 5rem;
 }
 
+.get {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    box-shadow: 3px 2px 1px rgb(201, 201, 201);
+    margin-left: 7px;
+    margin-bottom: 7px;
+    padding: 17px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.fl {
+    color: #0d6efd;
+    text-decoration: overline;
+}
+.sl {
+    text-decoration: underline;
+    color: #3D52A0
+}
+
 /* Quota form*/
 .quota-form {
     background-color: rgb(46, 46, 46);
@@ -284,6 +355,7 @@ Theme color alt write 2: EDE8F5;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .wp {
     width: 100px;
     position: fixed;
@@ -292,10 +364,28 @@ Theme color alt write 2: EDE8F5;
     cursor: pointer;
 }
 
+.about {
+    margin-top: 30px;
+    background-color: whitesmoke;
+    color: #3D52A0;
+    padding: 50px;
+    font-size: 1.3rem
+}
+
+.abt-txt {
+    font-size: 1.2rem;
+    text-align: center
+}
+
 /* Footer */
 footer {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    color: white;
+    background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);background: rgb(9,119,210);
+background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
+
 }
 
 /* Animations for the main hero */
