@@ -120,6 +120,7 @@ background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83
 
 .services {
     background-color: whitesmoke;
+    padding: 40px 0px;
 }
 
 .slider {
@@ -162,6 +163,7 @@ background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83
     color: #3D52A0;
     border-radius: 5px;
     bottom: 4px;
+    text-align: center;
 
 }
 
@@ -253,7 +255,9 @@ background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83
 .do-txt {
     color: whitesmoke;
 }
-
+.do-tt {
+    font-size: 1.2rem
+}
 .wedoimg {
     width: 30rem;
     height: 30rem;
@@ -382,11 +386,22 @@ footer {
     display: flex;
     justify-content: space-around;
     color: white;
-    margin-top: 10px;
+    margin-top: 30px;
     background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
 
+}
+/*################################################
+##         Template Page Style                  ##
+################################################*/
+.tem-pic {
+    max-width: 20rem;
+    cursor: pointer;
+    box-shadow: 2px 3px 3px grey;
+    border: 1px solid dodgerblue;
+    padding: 8px;
+    border-radius: 8px
 }
 
 /* Animations for the main hero */
