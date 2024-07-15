@@ -14,6 +14,9 @@ Theme color alt write 2: EDE8F5;
 */
 
 /* Navbar */
+body {
+    position: relative;
+}
 .nav {
     background-color: #3D52A0;
     color: white;
@@ -381,17 +384,57 @@ background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83
     text-align: center
 }
 
+/* modal*/
+.mod {
+    display: block;
+}
+.mod img {
+    max-width: 100%;
+}
+.imgs {
+    display: flex;
+    align-items: center;
+}
+.modal-live {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.close {
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
 /* Footer */
 footer {
     display: flex;
     justify-content: space-around;
     color: white;
     margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);background: rgb(9,119,210);
 background: linear-gradient(153deg, rgba(9,119,210,1) 66%, rgba(17,179,255,1) 83%);
 
 }
+footer li a{
+    color: white;
+    text-decoration: none
+}
+footer li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
 /*################################################
 ##         Template Page Style                  ##
 ################################################*/
